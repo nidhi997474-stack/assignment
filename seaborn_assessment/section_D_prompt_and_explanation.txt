@@ -1,0 +1,36 @@
+# Section D — AI-Augmented Learning
+
+## 1. Prompt Used
+
+Generate a Python program for food delivery data analysis using NumPy, Pandas, 
+Matplotlib, and Seaborn. Create a dataset containing 200 rows with the columns order_value,
+ distance_km, delivery_time_mins, rating, discount_pct, and cuisine_type.
+
+Display the dataset preview, dataset shape, and missing values. Generate a pairplot grouped by 
+cuisine type and a Pearson correlation heatmap for the numerical columns. Save both charts as PNG 
+files with a resolution of at least 200 DPI. Print the Pearson correlation matrix and confirm that
+ both charts have been saved successfully.
+
+## 2. Issue Identified
+
+The original program saved the pairplot and correlation heatmap at 150 DPI, which was below the required 
+resolution of 200 DPI.
+
+## 3. Correction Made
+
+I changed the DPI value from 150 to 200 in both chart-saving commands:
+
+- `pairplot.png`
+- `correlation_heatmap.png`
+
+## 4. Testing and Verification
+
+I executed the corrected Python notebook successfully. The output confirmed that the dataset contained
+ 200 rows and 6 columns, and that all columns had zero missing values. Both chart images were generated 
+ at 200 DPI without errors.
+
+## 5. Learning and Conclusion
+
+This task helped me understand how to use AI assistance to generate Python code, inspect the output, identify an
+ issue, and correct it independently. I learned how to save visualizations at the required resolution and 
+ verify the program by running it again.
